@@ -104,7 +104,7 @@ php artisan db:seed --class=FakeSeeder
 
 - 如果A、B是好友关系，当A删了B：
 
-   - 此时B好友列表中依然有B，但无法发送消息给A。
+   - 此时B好友列表中依然有A，但无法发送消息给A。
 
    - 此时A可以直接添加B为好友，且B不需要再验证。
 
